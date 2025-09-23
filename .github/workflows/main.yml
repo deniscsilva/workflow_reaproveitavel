@@ -26,4 +26,6 @@ jobs:
     CD:
       needs: [CI]
       uses: deniscsilva/workflow_reaproveitavel/.github/workflows/cd.yaml@main
+      with:
+        ambiente: produção
 
