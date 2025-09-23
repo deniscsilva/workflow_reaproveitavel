@@ -27,5 +27,5 @@ jobs:
       needs: [CI]
       uses: deniscsilva/workflow_reaproveitavel/.github/workflows/cd.yaml@main
       with:
-        ambiente: producao
+        ambiente: ${{ inputs.ambiente }}
 
