@@ -6,7 +6,7 @@ on:
       type: string
       default: "desenvolvimento"
       required: true
-      description: " Ambiete à ser deployado a app-a"
+      description: " Ambiente à ser deployado a app-a"
 jobs:
   deploy-kubernetes:
     runs-on: ubuntu-latest 

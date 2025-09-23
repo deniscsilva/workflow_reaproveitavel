@@ -3,14 +3,14 @@ on:
     workflow_dispatch:  
       inputs:
         ambiente:
-        type: choice
-        default: "desenvolvimento"
-        required: true
-        description: " Ambiete à ser deployado a app-a"
-        options:
-          - desenvolvimento
-          - homologação
-          - produção
+          type: choice
+          default: "desenvolvimento"
+          required: true
+          description: "Ambiente à ser deployado a app-a"
+          options:
+            - desenvolvimento
+            - homologação
+            - produção
 
 jobs:
     CI:
