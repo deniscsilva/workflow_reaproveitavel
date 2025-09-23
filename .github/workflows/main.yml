@@ -14,5 +14,5 @@ jobs:
      
     CD:
       needs: [CI]
-      uses: deniscsilva/workflow_reaproveitavel/.github/workflow/cd.yaml@main
+      uses: deniscsilva/workflow_reaproveitavel/.github/workflows/cd.yaml@main
 
