@@ -3,10 +3,10 @@ on:
   workflow_call:
     inputs:
       ambiente:
-      type: string
-      default: "desenvolvimento"
-      required: true
-      description: " Ambiente à ser deployado a app-a"
+        type: string
+        default: "desenvolvimento"
+        required: true
+        description: " Ambiente à ser deployado a app-a"
 jobs:
   deploy-kubernetes:
     runs-on: ubuntu-latest 
